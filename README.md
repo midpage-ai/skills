@@ -83,11 +83,3 @@ Each skill directory may contain:
 Current repository contents:
 - `legal-brief-drafter/`
 - `legal-brief-drafter/references/`
-
-## Contributing
-
-When adding new skills:
-- Use kebab-case directory names
-- Keep `SKILL.md` focused and move heavier material into `references/`
-- Write descriptions that clearly state when the skill should trigger
-- Prefer relative links so the skill remains portable as a folder
