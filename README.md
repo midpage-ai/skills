@@ -35,6 +35,14 @@ filings using court-specific formatting rules and filing conventions.
 This repository is organized as `skills/<skill-name>/...`, with each skill using
 `SKILL.md` as its entrypoint.
 
+### ChatGPT
+
+Download and install the bundled skill archive:
+
+```text
+legal-brief-drafter.skill
+```
+
 ### Skills CLI
 
 Install the full catalog:
@@ -71,7 +79,6 @@ https://github.com/midpage-ai/skills/tree/main/skills/legal-brief-drafter
 ### Midpage MCP
 
 Midpage MCP exposes this skill as:
-- Prompt: `legal-brief-drafter`
 - Resource: `resource://midpage/skills/legal-brief-drafter`
 - Resource: `resource://midpage/skills/legal-brief-drafter/court-rules-guide`
 
@@ -104,5 +111,6 @@ Each skill directory may contain:
 - `scripts/` - helper scripts for automation, if the skill needs them
 
 Current repository contents:
+- `legal-brief-drafter.skill`
 - `skills/legal-brief-drafter/`
 - `skills/legal-brief-drafter/references/`
