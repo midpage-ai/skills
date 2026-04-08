@@ -32,18 +32,41 @@ filings using court-specific formatting rules and filing conventions.
 
 ## Installation
 
-Skills are distributed as folders with `SKILL.md` entrypoints.
+This repository is organized as `skills/<skill-name>/...`, with each skill using
+`SKILL.md` as its entrypoint.
+
+### Skills CLI
+
+Install the full catalog:
+
+```bash
+bunx skills add midpage-ai/skills
+```
+
+Install just this skill directly:
+
+```bash
+bunx skills add https://github.com/midpage-ai/skills/tree/main/skills/legal-brief-drafter
+```
 
 ### Claude Code
 
 ```bash
-cp -r legal-brief-drafter ~/.claude/skills/
+cp -r skills/legal-brief-drafter ~/.claude/skills/
 ```
 
 ### Other skills-compatible agents
 
-Copy the skill folder into the agent's skills directory, or import `SKILL.md`
-plus any referenced files according to that client's instructions.
+Copy `skills/legal-brief-drafter/` into the agent's skills directory, or import
+the folder directly from GitHub if that client supports repo-based installs.
+
+### Codex
+
+Use the built-in skill installer with:
+
+```text
+https://github.com/midpage-ai/skills/tree/main/skills/legal-brief-drafter
+```
 
 ### Midpage MCP
 
@@ -81,5 +104,5 @@ Each skill directory may contain:
 - `scripts/` - helper scripts for automation, if the skill needs them
 
 Current repository contents:
-- `legal-brief-drafter/`
-- `legal-brief-drafter/references/`
+- `skills/legal-brief-drafter/`
+- `skills/legal-brief-drafter/references/`

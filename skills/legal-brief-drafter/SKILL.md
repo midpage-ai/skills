@@ -5,7 +5,7 @@ description: "Use this skill whenever the user asks to draft, format, finalize, 
 
 # Legal Brief Drafter
 
-Draft and format legal briefs, motions, and memoranda that comply with court-specific rules. Every court — and often individual judges — has local rules governing formatting. A filing that violates these rules can be rejected or reflect poorly on counsel. This skill ensures Claude proactively finds and applies the correct rules.
+Draft and format legal briefs, motions, and memoranda that comply with court-specific rules. Every court — and often individual judges — has local rules governing formatting. A filing that violates these rules can be rejected or reflect poorly on counsel. This skill ensures the agent proactively finds and applies the correct rules.
 
 ## Core Workflow
 
