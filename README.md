@@ -37,8 +37,16 @@ This repository is organized as `skills/<skill-name>/...`, with each skill using
 
 ### Claude Code Plugin
 
-This repository is prepared as a Claude Code plugin source repo for submission
-to Anthropic's official plugin marketplace.
+This repository works both as:
+- a Claude Code plugin source repo for submission to Anthropic's official plugin marketplace
+- a GitHub-hosted test marketplace for local validation before submission
+
+Test the GitHub-hosted marketplace flow:
+
+```bash
+/plugin marketplace add midpage-ai/skills
+/plugin install midpage@midpage
+```
 
 For local testing before submission, load it directly:
 
@@ -127,6 +135,7 @@ Each skill directory may contain:
 
 Current repository contents:
 - `.claude-plugin/plugin.json`
+- `.claude-plugin/marketplace.json`
 - `.mcp.json`
 - `legal-brief-drafter.skill`
 - `skills/legal-brief-drafter/`
