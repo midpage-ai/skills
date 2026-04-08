@@ -40,13 +40,13 @@ This repository is organized as `skills/<skill-name>/...`, with each skill using
 Install the full catalog:
 
 ```bash
-bunx skills add midpage-ai/skills
+npx skills add midpage-ai/skills
 ```
 
 Install just this skill directly:
 
 ```bash
-bunx skills add https://github.com/midpage-ai/skills/tree/main/skills/legal-brief-drafter
+npx skills add https://github.com/midpage-ai/skills/tree/main/skills/legal-brief-drafter
 ```
 
 ### Claude Code
