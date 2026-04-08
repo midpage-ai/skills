@@ -66,7 +66,7 @@ See the "Point headings (hanging indent)" pattern in `references/court-rules-gui
 
 ### Step 4: Produce the Word Document
 
-Use the `docx` skill to create the final .docx file. Read `/mnt/skills/public/docx/SKILL.md` for creation instructions. Apply the formatting parameters from the court rules you found in Step 2. See `references/court-rules-guide.md` for formatting defaults when rules are silent on specific parameters, and for caption and ECF signature block conventions.
+Use the `docx` skill to create the final .docx file. Read Anthropic's public `docx` skill first: `https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/SKILL.md` (repository: `https://github.com/anthropics/skills/tree/main/skills/docx`). If the environment exposes an installed local `docx` skill, prefer that local copy. Apply the formatting parameters from the court rules you found in Step 2. See `references/court-rules-guide.md` for formatting defaults when rules are silent on specific parameters, and for caption and ECF signature block conventions.
 
 **Font selection:** Only use fonts that are universally available on Windows and Mac: Times New Roman, Arial, Georgia, Book Antiqua, Palatino Linotype. Even when a court's rules express a preference for a specific font (e.g., California prefers Century Schoolbook), use a widely available equivalent instead (e.g., Book Antiqua or Palatino Linotype for Century Schoolbook) — the rules allow "any conventional font" and a document that renders correctly everywhere is more important than a preferred-but-unavailable font that causes substitution. Use one font throughout the document; avoid mixing serif and sans-serif unless the user specifically requests it.
 
