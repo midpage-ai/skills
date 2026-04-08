@@ -1,0 +1,21 @@
+{
+  "name": "midpage",
+  "version": "1.0.0",
+  "description": "Official Midpage plugin for legal research and writing. Includes Midpage MCP and the Legal Brief Drafter skill.",
+  "author": {
+    "name": "Midpage",
+    "url": "https://midpage.ai"
+  },
+  "homepage": "https://midpage.ai",
+  "repository": "https://github.com/midpage-ai/skills",
+  "keywords": [
+    "midpage",
+    "legal",
+    "research",
+    "writing",
+    "mcp",
+    "skills",
+    "briefs"
+  ],
+  "mcpServers": "./.mcp.json"
+}

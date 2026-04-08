@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "midpage": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://app.midpage.ai/mcp"
+      ]
+    }
+  }
+}

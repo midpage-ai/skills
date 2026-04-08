@@ -35,6 +35,21 @@ filings using court-specific formatting rules and filing conventions.
 This repository is organized as `skills/<skill-name>/...`, with each skill using
 `SKILL.md` as its entrypoint.
 
+### Claude Code Plugin
+
+This repository is prepared as a Claude Code plugin source repo for submission
+to Anthropic's official plugin marketplace.
+
+For local testing before submission, load it directly:
+
+```bash
+claude --plugin-dir /path/to/skills
+```
+
+This plugin bundles:
+- the Midpage MCP server via `.mcp.json`
+- the `legal-brief-drafter` skill from `skills/legal-brief-drafter/`
+
 ### ChatGPT
 
 Download and install the bundled skill archive:
@@ -111,6 +126,8 @@ Each skill directory may contain:
 - `scripts/` - helper scripts for automation, if the skill needs them
 
 Current repository contents:
+- `.claude-plugin/plugin.json`
+- `.mcp.json`
 - `legal-brief-drafter.skill`
 - `skills/legal-brief-drafter/`
 - `skills/legal-brief-drafter/references/`
